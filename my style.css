@@ -1,0 +1,559 @@
+.main-navbar {
+    overflow: auto;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 75px;
+    background: hsla(0, 0%, 100%, .98);
+    display: flex;
+    justify-content: space-around;
+}
+
+.docp-logo {
+    width: 268px;
+    height: 33px;
+    margin: 20px 10px;
+    cursor: pointer;
+}  
+
+img {
+    width: 100%;
+} 
+
+.head-link {
+    margin-top: 10px;
+    margin-right: 13%;
+    white-space: nowrap;
+    padding: 2%;
+    padding-left: 30px;
+}
+
+.head-link a {
+    color: #747474;
+    text-decoration: none;
+}
+
+.head-link a:hover {
+    color: #00b39b;
+    cursor: pointer;
+}
+
+#aboutus-link {
+    color: #00b39b;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #747474;
+}
+
+.description-container {
+    width: 478px;
+    height: 112px;
+    line-height: 1.75;
+    margin: 25px;
+    margin-top: 25px;
+    white-space: normal;
+}
+
+.patient-div {
+    width: 478px;
+    height: 391px;
+    max-width: 478px;
+    max-height: 391px;
+    border-radius: 10px;
+    background-color: #00ccb1;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.service-section,
+.statis-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.doc-logo {
+    width: 40px;
+    height: 40px;
+    margin-top: -8%;
+}
+
+.slogan-text {
+    margin-top: 15px;
+    color: #00b39b;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+div#desc-div.container{
+    display: flex;
+    direction: column;
+    overflow: hidden;
+    margin-bottom: 2%;
+    margin-top: 9%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+div#desc-div.container{
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+span.description-container{
+    margin-bottom: 10%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 5%;
+    margin-top: -7%;
+    margin-left: 13%;
+    margin-right: 10%;
+    height: 75%;
+}
+div#service-div.container{
+    height: fit-content;
+}
+div#upstat-div.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+div.box{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: -25%;
+    margin-right: 13%;
+}
+
+.division-title {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+
+.division-desc {
+    color: #fff; 
+    font-size: 23px;
+    padding-left: 15px;
+    margin-top: 10%;
+    font-weight: 3;
+    font-family: 'Times New Roman', ;
+    text-transform: uppercase;
+}
+
+.country-selection {
+    margin: 5% 2% 7%;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00ccb1;
+}
+
+#countries-doctor{
+    margin-left: 4%;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    background-color: #3d83df;
+    color: #fff;
+}
+#countries-clinic{
+    margin-left: 4%;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+}
+
+select div.country-selection{
+    margin-bottom: -1900em;
+}
+
+option{
+    color: black;
+    background-color: #fff;
+}
+.scmrktplace-img {
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-right: 55%;
+}
+
+.scmrktplace-img img {
+    max-width: 30px;
+
+}
+
+#doctor-div {
+    
+    margin-left: 25px;
+}
+
+#clinic-div {
+    background-color: #060d16;
+    margin-left: 25px;
+}
+
+.info h1{
+    font-size: 36px;
+}
+
+.info h2{
+    font-size: 10px
+}
+
+#service-div,
+#desc-div,
+#company-brands {
+    flex-direction: row;
+    justify-content: center;
+}
+#desc-div{
+    margin-top: 0;
+}
+
+#patient-desc,
+#clinic-desc,
+#doctor-desc {
+    margin-bottom: 75px
+}
+
+#company-slogan {
+    margin-top: 10%;
+    color: #00b39b;
+    font-size: 1.625em;
+    font-weight: 500;
+    width: 16%;
+    margin-left: 15%;
+    margin-right: 22%;
+}
+div#company-slogan.slogan-text {
+    margin-left: 2%;
+    width: 470px;
+    margin-right: 2%;
+
+}
+.brand-logo {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25%;
+    padding-inline-start: -15px;
+    align-items:flex-start;
+    margin-bottom: -1%;
+    margin: auto;
+    margin-top: 10%;
+    margin-right: -16%;
+}
+
+li#gipo{
+    width: 90px;
+}
+li#tempo{
+    width: 130px;
+}
+li#cloud{
+    width: 90px;
+}
+li#gjameda{
+    width: 70px;
+}
+
+.brand-logo li {
+    display: inline-block;
+    width: 168px;
+    padding-right: 5px;
+    margin-bottom: 7px;
+}
+
+.brand-logo li:hover svg {
+    fill: #00b39b;
+}
+
+.brand-logo li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474;
+}
+
+.brand-logo li img{
+    height: 32px;
+    width: 10px;
+    max-width: 100%;
+    padding-top: 10px;
+    width: 182px;
+    margin-right: -2%;
+    background-image: #747474;
+}
+
+.statis-section {
+    background-color: #e5faf8;
+    height: 650px;
+    width: 100%;
+    flex-direction: row;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-top: auto;
+}
+
+#upstat-div {
+    margin-top: 50px;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+#statis-slogan {
+    font-size: 2.2em;
+    margin-left: -9%;   
+    margin-bottom: 10%;
+    margin-right: 10%;
+    height: 30%;
+    width: 80%;
+    
+}
+
+.statis-desc {
+    font-size: .875em;
+    margin-top: -11%;
+    margin-left: -40%;
+    margin-right: 3%;
+    padding-inline: 7%;
+}
+.ddplogo-statis {
+    height: 382px;
+    width: 440px;
+    margin-top: 25px;
+}
+
+.box {
+    background-color: #fff;
+    width: 228px;
+    height: 90%;
+    border-radius: 1px;
+    margin-top: 31px;
+    text-align: center;
+    margin-left: 400%;
+    margin-bottom: -10%;
+    margin-right: 300%;
+    padding-bottom: -15%;
+}
+
+div#box.container{
+    margin-top: -2%;
+    margin-right: -46%;
+    margin-left: -17%;
+    padding-block: 5%; 
+    display: flex;
+    width: 38%;
+    height: 73%;
+    margin-bottom: -3% ;
+    padding-bottom: -9%;
+}
+div.box{
+    margin-left: 40px;
+    margin-right: 110px;
+    margin-top: 13%;
+    margin-bottom: -9%;
+    padding-top: -19%;
+    width: 35%;
+    height: 50%;
+    padding-bottom: 5%;
+   
+}
+
+.box img {
+    margin-top: 11%;
+    width: 40px;
+}
+
+.land-desc {
+    padding: 8%;
+    font-size: 13px;
+    margin-left: -7%;
+    margin-bottom: -12%;
+}
+
+.rd-title {
+    font-size: 20px;
+    margin-top: auto;
+}
+div#boxbox-neighb.container{
+    margin-left: 22.5%;
+    margin-right: -10%;
+    margin-top: 2.5%;
+    margin-bottom: 56%;
+    width: 17%;
+    height: 68%;
+    border-radius: 3px;
+    padding-top: -10%;
+    padding-bottom: 9%;
+}
+
+div#box.box-neighb{
+    height: 50%;
+    margin-bottom: -90%;
+    margin-left: 10%;
+    width: 70%;
+    margin-top: 10%;
+}
+.box-neighb {
+    margin-left: 25%;
+    margin-top: 70px;
+    margin-bottom: 15%;
+    margin-right: 65%;
+    padding-right: 100%;
+    padding-top: 15%;
+    width: 95%;
+    height: 70%;
+    
+}
+h2#rdv.slogan-text.rd-title{
+    margin-left: -4%;
+    width: 230%;
+    height: 30%;
+    margin-right: 10%;
+}
+.box-neighb.container{
+    display: grid;
+    width: 68%;
+    padding-block-end: 30px;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin: 0% 13% 9%;
+}
+
+.text-container {
+    width: 500px;
+    margin: 8% 31%;
+    text-align: center;
+}
+
+.text-div {
+    font-size: .875em;
+    line-height: 1.7;
+}
+img#id{
+    margin-top: -16%;
+    width: 40px;
+    margin-left: 85%;
+    margin-right: -55%;
+}
+span#me.statis-desc.land-desc{
+    font-size: 13px; 
+    width: 110px;
+    height: 10%;
+    margin-right: initial;
+    padding: 8%;
+    margin-left: -7%;
+    margin-bottom: -12%;
+}
+
+.image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin: 0% 13% 9%;
+}
+
+.wrapper {
+    width: 309px;
+    height: 345px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+
+.wrapper img {
+    width: 309px;
+    height: 278px;
+
+}
+
+.city-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 5%;
+}
+
+.seemore-btn {
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 27%;
+    margin-top: -25%;
+    margin-right: -5%;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+}
+
+.image-section a {
+    text-decoration: none;
+    color: #747474;
+
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    border-top: 1px solid grey;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    line-height: 2.2;
+}
+
+footer a {
+    color: #3d83df;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+#doctors-div
+{ 
+    margin-left: 30px;
+    background-color: #3d83df;
+}
+
